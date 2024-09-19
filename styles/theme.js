@@ -12,8 +12,8 @@ export const theme = extendTheme({
     global: {
       // styles for the `body`
       body: {
-        bg: "#0f0f0e",
-        color: "white",
+        bg: "#272b23",
+        color: "#c7cac2",
       },
     },
   },
@@ -35,16 +35,18 @@ export const theme = extendTheme({
     red: "#ff3864",
     yellow: "#F2E857",
     yellowDark: "#DCCF11",
+    broodBlack: "#272b23",
+    bodyHororGreen: "#6deec0",
+    bodyHorrorRed: "#f25480",
+    sicklyWhite: "#c7cac2",
   },
   fonts: {
-    heading: `'Uncial Antiqua', cursive`,
-    text: `'futura-pt','sans-serif'`,
-    texturina: `'Texturina', serif`,
-    jetbrains: `'JetBrains Mono', monospace`,
-    rubik: `'Rubik Mono One', sans-serif`,
-    uncial: `'Uncial Antiqua', cursive`,
-    spaceMono: `'Space Mono', monospace;`,
-    sourceSansPro: `'Source Sans Pro', sans-serif;`,
+    heading: `'Revue', sans-serif`,
+    text: `'Nanum Gothic', sans-serif`,
+    texturina: `'Nanum Gothic', sans-serif`,
+    uncial: `'Revue', sans-serif`,
+    sourceSansPro: `'Nanum Gothic', sans-serif`,
+    garamond: `'EB Garamond', serif`,
   },
   breakpoints,
 });

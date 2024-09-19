@@ -1,4 +1,4 @@
-import { Flex, Image, Link } from "@chakra-ui/react";
+import { Flex, Heading, Image, Link } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 import { MEDIA_FILES } from "../utils/constants";
 
@@ -12,16 +12,27 @@ const StyledContainer = styled(Flex)`
 
 export const Header = () => {
   return (
-    <StyledContainer px={{ lg: "8rem", md: "4rem", base: "2rem" }} pt={4} position="relative">
-      <Link href="/" display="flex" justifyContent="center" mx="auto">
+    <StyledContainer
+      px={{ lg: "8rem", md: "4rem", base: "2rem" }}
+      pt={4}
+      position="relative"
+    >
+      {/* <Link href="/" display="flex" justifyContent="center" mx="auto">
         <Image
           src={MEDIA_FILES.logos.header}
           alt="logo"
           w={{ lg: "170px", base: "100px" }}
         />
-      </Link>
+        <Heading>Brood</Heading>
+      </Link> */}
 
-      <Flex direction="row" alignItems="center" position="absolute" right gap={2}>
+      {/* <Flex
+        direction="row"
+        alignItems="center"
+        position="absolute"
+        right
+        gap={2}
+      >
         <Link href="https://discord.gg/XKGM8u8XTQ" isExternal>
           <Image
             src={MEDIA_FILES.icons.discord}
@@ -36,7 +47,7 @@ export const Header = () => {
             w={{ lg: "32px", base: "18px" }}
           />
         </Link>
-      </Flex>
+      </Flex> */}
     </StyledContainer>
   );
 };
