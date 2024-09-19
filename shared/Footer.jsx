@@ -1,4 +1,4 @@
-import { Flex, Grid, Image, Link, Text } from "@chakra-ui/react";
+import { Flex, Grid, Heading, Image, Link, Text } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 import { theme } from "../styles/theme";
 import { MEDIA_FILES } from "../utils/constants";
@@ -13,6 +13,10 @@ const StyledNavLink = styled(Link)`
   color: white;
   text-align: center;
   font-weight: bold;
+`;
+
+const StyledHeading = styled(Heading)`
+  color: ${theme.colors.bodyHororGreen};
 `;
 
 export const Footer = () => {
@@ -33,11 +37,11 @@ export const Footer = () => {
       >
         <Flex gridArea="left" alignItems="end">
           <StyledNavLink fontSize={{ lg: "16px", base: "14px" }}>
-            Made with ⚔️ for our fellow raiders
+            Made with ⚔️
           </StyledNavLink>
         </Flex>
         <Flex gridArea="mid" justify="center">
-          <Image src={MEDIA_FILES.logos.footer} alt="logo" w="100px" />
+          <StyledHeading>BROOD.BEER</StyledHeading>
         </Flex>
 
         <Flex

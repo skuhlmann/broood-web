@@ -5,6 +5,7 @@ import { Hero } from "../components/splash/Hero";
 import { About } from "../components/splash/About";
 import { Beers } from "../components/splash/Beers";
 import { Brew } from "../components/splash/Brew";
+import { ProofOfDrink } from "../components/splash/ProofOfDrink";
 import { Flex } from "@chakra-ui/react";
 
 const Home = () => {
@@ -13,8 +14,9 @@ const Home = () => {
       {/* <Header /> */}
       <Hero />
       <About />
-      <Beers />
       <Brew />
+      {/* <Beers /> */}
+      <ProofOfDrink />
       <Footer />
     </Flex>
   );
