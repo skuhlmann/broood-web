@@ -1,14 +1,12 @@
 import { Center, Heading, Text, VStack } from "@chakra-ui/react";
-import styles from "../../styles/Home.module.scss";
+// import styles from "../../styles/Home.module.scss";
 import { theme } from "../../styles/theme";
 
 const Web3Info = ({ bgColor }) => {
   return (
     <Center bgColor={bgColor} w={"100%"}>
       <VStack maxW={"750px"} py={"5em"}>
-        <Heading className={styles.heading} fontFamily={theme.fonts.uncial}>
-          WEB3 MEETS BEER.
-        </Heading>
+        <Heading fontFamily={theme.fonts.uncial}>WEB3 MEETS BEER.</Heading>
         <Text width={"70%"} fontFamily={theme.fonts.sourceSansPro}>
           <span style={{ fontWeight: `700` }}>
             You are on the way to joining the Raid Brood DAO.

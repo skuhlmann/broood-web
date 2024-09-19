@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 
 import { Footer } from "../../shared/Footer";
 import { Center, Flex } from "@chakra-ui/react";
-import Drinks from "../api/drinks.json";
+import Drinks from "../../utils/drinks.json";
 import BeerInfo from "../../components/drink/BeerInfo";
 import LogoHeader from "../../components/drink/LogoHeader";
 import Lore from "../../components/drink/Lore";
@@ -23,7 +23,11 @@ export default function DrinkPage() {
 
   return (
     <Flex direction="column">
-      <LogoHeader path={`/assets/drink/${drink}/logo.${drink === 'seoulbound' ? 'png' : 'svg'}`} />
+      <LogoHeader
+        path={`/assets/drink/${drink}/logo.${
+          drink === "seoulbound" ? "png" : "svg"
+        }`}
+      />
       <BeerInfo copy={copy} bgColor={"black"} />
       <Web3Info bgColor={"#2b2c34"} />
       {copy.callToAction && (
