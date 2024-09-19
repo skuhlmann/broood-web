@@ -10,8 +10,7 @@ import { Flex } from "@chakra-ui/react";
 const Home = () => {
   return (
     <Flex direction="column">
-      <Header />
-
+      {/* <Header /> */}
       <Hero />
       <About />
       <Beers />

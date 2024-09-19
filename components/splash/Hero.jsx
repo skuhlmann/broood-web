@@ -1,46 +1,79 @@
-import { Flex, Text } from '@chakra-ui/react';
-import styled from '@emotion/styled';
+import { Flex, Text } from "@chakra-ui/react";
+import styled from "@emotion/styled";
 
-import { theme } from '../../styles/theme';
+import { theme } from "../../styles/theme";
+import Image from "next/image";
 
 const StyledFlex = styled(Flex)`
   flex-direction: column;
   align-items: center;
-  background-image: url('/assets/hero_banner.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
   justify-content: center;
 `;
 const StyledHeroText = styled(Text)`
   font-family: ${theme.fonts.uncial};
   letter-spacing: 1.2px;
-  color: white;
   text-align: center;
   margin-bottom: 2rem;
+  color: ${theme.colors.bodyHororGreen};
+  text-shadow: ${theme.colors.bodyHorrorRed} 2px 5px;
 `;
 const StyledSloganText = styled(Text)`
-  font-family: ${theme.fonts.sourceSansPro};
-  color: white;
+  font-family: ${theme.fonts.garamond};
   text-align: center;
   max-width: 85%;
+`;
+const StyledSloganTextUpper = styled(Text)`
+  font-family: ${theme.fonts.garamond};
+  text-align: center;
+  max-width: 85%;
+  text-transform: uppercase;
 `;
 
 export const Hero = () => {
   return (
     <StyledFlex
-      minH={{ lg: '110vh', base: '90vh' }}
-      px={{ lg: '8rem', md: '4rem', base: '2rem' }}
+      px={{ lg: "5rem", md: "3rem", base: "1rem" }}
+      py={{ md: "5rem", base: "3rem" }}
     >
-      <StyledHeroText
-        fontSize={{ lg: '72px', base: '48px' }}
-        lineHeight={{ lg: '96px', sm: '48px' }}
+      <StyledSloganTextUpper
+        fontSize={{ lg: "32px", base: "18px" }}
+        mb={{ base: "1rem", md: "3rem" }}
+        // fontWeight="700"
       >
         Beer for Slayers of Moloch
+      </StyledSloganTextUpper>
+      <Image
+        src="/BROOD-LOGO-SVG.svg"
+        alt="BROOD"
+        width="500px"
+        height="325px"
+      />
+      <StyledSloganTextUpper
+        fontSize={{ lg: "24px", base: "18px" }}
+        mt="3rem"
+        mb="1rem"
+      >
+        RAIDGUILD&apos;s
+      </StyledSloganTextUpper>
+      <StyledHeroText
+        fontSize={{ lg: "150px", md: "100px", base: "80px" }}
+        lineHeight={{ lg: "150px", md: "100px", base: "80px" }}
+      >
+        BROOD
       </StyledHeroText>
-      <StyledSloganText fontSize={{ lg: '28px', base: '24px' }}>
+      <StyledSloganText
+        fontSize={{ lg: "28px", base: "18px" }}
+        fontWeight="700"
+      >
         Pooling our Web3 powers to conspire against Moloch in taverns around the
         world.
+      </StyledSloganText>
+      <StyledSloganText fontSize={{ lg: "28px", base: "18px" }}>
+        When the whacked hops takes a coffee break, a hops ceases to exist.
+        Sometimes a hardly dreamlike pin ball machine laughs out loud, but the
+        greedily soggy line dancer always pees on a bullfrog brew! If a burglar
+        ale knowingly ignores some Hommel Bier, then a Rolling Rock inside a bar
+        stool self-flagellates.
       </StyledSloganText>
       <br />
     </StyledFlex>

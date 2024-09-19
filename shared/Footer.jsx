@@ -6,7 +6,6 @@ import { MEDIA_FILES } from "../utils/constants";
 const StyledContainer = styled(Flex)`
   flex-direction: column;
   align-items: center;
-  background-color: #2b2c34;
   width: 100%;
 `;
 const StyledNavLink = styled(Link)`
@@ -20,15 +19,15 @@ export const Footer = () => {
   return (
     <StyledContainer px={{ lg: "8rem", md: "4rem", base: "2rem" }} py={12}>
       <Grid
-        templateColumns={{ base: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }}
+        templateColumns={{ base: "repeat(2, 1fr)", lg: "repeat(3, 1fr)" }}
         templateAreas={{
           base: `
             "mid mid"
             "left right"
           `,
-          lg: `"left mid right"`
+          lg: `"left mid right"`,
         }}
-        templateRows={{ base: "5rem 1fr", lg: '1fr' }}
+        templateRows={{ base: "5rem 1fr", lg: "1fr" }}
         w="full"
         rowGap={4}
       >
@@ -38,14 +37,16 @@ export const Footer = () => {
           </StyledNavLink>
         </Flex>
         <Flex gridArea="mid" justify="center">
-          <Image
-            src={MEDIA_FILES.logos.footer}
-            alt="logo"
-            w="100px"
-          />
+          <Image src={MEDIA_FILES.logos.footer} alt="logo" w="100px" />
         </Flex>
 
-        <Flex direction="row" alignItems="end" gridArea="right" ms="auto" gap={2}>
+        <Flex
+          direction="row"
+          alignItems="end"
+          gridArea="right"
+          ms="auto"
+          gap={2}
+        >
           <Link href="https://discord.gg/XKGM8u8XTQ" isExternal>
             <Image
               src={MEDIA_FILES.icons.discord}
