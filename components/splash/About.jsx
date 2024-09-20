@@ -75,9 +75,9 @@ export const About = () => {
           </StyledBodyText>
         </StyledSubContainer>
         <Image
-          src={MEDIA_FILES.illustrations.one}
-          alt="illustration"
-          w={{ lg: "450px", base: "200px" }}
+          src="/BOM_GREEN.png"
+          alt="Blood of Moloch"
+          w={{ lg: "450px", base: "250px" }}
           ml="auto"
           mr={{ lg: "0", base: "auto" }}
           mt={{ base: "0.5rem", lg: "0", md: "0" }}

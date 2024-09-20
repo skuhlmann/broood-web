@@ -20,13 +20,12 @@ const StyledHeading = styled(Text)`
 `;
 const StyledBodyText = styled(Text)`
   font-family: ${theme.fonts.garamond};
-  letter-spacing: 1.2px;
   text-align: left;
   margin-bottom: 1rem;
 `;
 
 const StyledPopupButton = styled(PopupButton)`
-  font-family: ${theme.fonts.garamond};
+  font-family: ${theme.fonts.heading};
   background-color: ${theme.colors.bodyHorrorRed};
   font-size: 24px;
   font-weight: 500;
@@ -41,7 +40,7 @@ const StyledPopupButton = styled(PopupButton)`
 `;
 
 const StyledLink = styled.a`
-  color: #ff3864;
+  color: ${theme.colors.bodyHorrorRed};
   opacity: 1;
   :hover {
     opacity: 0.85;
