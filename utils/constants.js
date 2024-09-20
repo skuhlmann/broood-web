@@ -23,31 +23,22 @@ export const MEDIA_FILES = {
 
 export const BEER_CONTENT = [
   {
-    title: "Blood of Moloch",
+    title: "Pretty Decent",
     description:
-      "From below his sacrificial altar, we drove our blade into the demon’s flesh. The harvest of battle is blood, intense, complex and rich, with flavors of roasted malts, dark chocolate, dark fruits and espresso. Drink its poison, all 14% abv of it!",
+      "Crispy and clean WestCoast IPA with Southern Hemisphere Flora. Nectaron and Nelson hops bring stonefruit and citrus, white wine and black pepper.",
     canImage:
       "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
-    path: "/bloodofmoloch",
-    label: "/assets/drink/bloodofmoloch/label.svg",
+    path: "/prettydecent",
+    label: "/assets/drink/seoulbound/label.svg",
   },
   {
-    title: "Red Pil",
+    title: "Seoul Bound",
     description:
-      "Crisp and dry, traditional pilsner profile with a touch of lemongrass, bergamot and blacktea from late Saphir hop additions. Fermented with OldWorld+NewBeast Kveik Yeast. All the clean pilsner taste, with only 1/6 the brewing time.",
+      "Traditional Korean communal beverage. Milky, off-white, and lightly sparkling rice wine. Made in collaboration with Nonce.",
     canImage:
       "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
-    path: "/redpil",
-    label: "/assets/drink/redpil/label.svg",
-  },
-  {
-    title: "Green Pil",
-    description:
-      "A hop forward crushable Kveik Pilsner. Made in collaboration with the Green Pil Podcast. $1 from every sale going to fund public goods.",
-    canImage:
-      "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
-    path: "/greenpil",
-    label: "/assets/drink/greenpil/label.svg",
+    path: "/seoulbound",
+    label: "/assets/drink/seoulbound/label.svg",
   },
   {
     title: "Spork and Sour",
@@ -59,12 +50,30 @@ export const BEER_CONTENT = [
     label: "/assets/drink/sporkandsour/label.svg",
   },
   {
-    title: "Seoul Bound",
+    title: "Green Pil",
     description:
-      "Traditional Korean communal beverage. Milky, off-white, and lightly sparkling rice wine. Made in collaboration with Nonce.",
+      "A hop forward crushable Kveik Pilsner. Made in collaboration with the Green Pil Podcast. $1 from every sale going to fund public goods.",
     canImage:
       "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
-    path: "/seoulbound",
-    label: "/assets/drink/seoulbound/label.svg",
+    path: "/greenpil",
+    label: "/assets/drink/greenpil/label.svg",
+  },
+  {
+    title: "Red Pil",
+    description:
+      "Crisp and dry, traditional pilsner profile with a touch of lemongrass, bergamot and blacktea from late Saphir hop additions. Fermented with OldWorld+NewBeast Kveik Yeast. All the clean pilsner taste, with only 1/6 the brewing time.",
+    canImage:
+      "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
+    path: "/redpil",
+    label: "/assets/drink/redpil/label.svg",
+  },
+  {
+    title: "Blood of Moloch",
+    description:
+      "From below his sacrificial altar, we drove our blade into the demon’s flesh. The harvest of battle is blood, intense, complex and rich, with flavors of roasted malts, dark chocolate, dark fruits and espresso. Drink its poison, all 14% abv of it!",
+    canImage:
+      "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
+    path: "/bloodofmoloch",
+    label: "/assets/drink/bloodofmoloch/label.svg",
   },
 ];

@@ -14,7 +14,7 @@ const StyledHeroText = styled(Text)`
   letter-spacing: 1.2px;
   text-align: center;
   margin-bottom: 2rem;
-  color: ${theme.colors.bodyHororGreen};
+  color: ${theme.colors.bodyHorrorGreen};
   text-shadow: ${theme.colors.bodyHorrorRed} 2px 5px;
 `;
 const StyledSloganText = styled(Text)`

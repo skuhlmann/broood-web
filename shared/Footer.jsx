@@ -16,7 +16,7 @@ const StyledNavLink = styled(Link)`
 `;
 
 const StyledHeading = styled(Heading)`
-  color: ${theme.colors.bodyHororGreen};
+  color: ${theme.colors.bodyHorrorGreen};
 `;
 
 export const Footer = () => {

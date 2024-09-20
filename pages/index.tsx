@@ -15,8 +15,8 @@ const Home = () => {
       <Hero />
       <About />
       <Brew />
-      {/* <Beers /> */}
       <ProofOfDrink />
+      <Beers />
       <Footer />
     </Flex>
   );

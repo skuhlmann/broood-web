@@ -11,6 +11,35 @@
     },
     "canImage": "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg"
   },
+  "seoulbound": {
+    "name": "Seoul Bound",
+    "heading": { "title": "A Beverage for DAO East and Rest" },
+    "style": "Korean Rice Wine",
+    "beer": "Traditional Korean communal beverage. Milky, off-white, and lightly sparkling rice wine. Made in collaboration with Nonce.",
+    "traits": { "abv": 9, "ibu": 0 },
+    "callToAction": "Reveal through meditation",
+    "lore": {
+      "first": "Makgeolli is a traditional communal beverage of Korea, shared amongst friends and family to strengthen the ties that bind. Honoring this tradition, Raid Brood worked in collaboration with the Nonce Commmunity and Jangan Brewery to create a brew that bonds the DAOists of the East and Rest. Enjoy the Makgeolli and let the liquid solidify bonds, old and new."
+    },
+    "canImage": "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
+    "daoClaimUrl": "https://onbrooder.daohaus.club/#/claim-shares/0x9568ad7d722b75b303c823ed8dc2129f6c66e65c"
+  },
+  "sporkandsour": {
+    "name": "Spork and Sour",
+    "heading": { "title": "GOOD FOR HUMANITY", "subtitle": "BAD FOR MOLOCH" },
+    "style": "Fruited Sour",
+    "beer": "Berlinerweiss style sour finished with Colorado fruit, Prickly Pear and Red Raspberry. Made in collaboration with SporkDAO for ETH Denver 2023.",
+    "traits": { "abv": 4.5, "ibu": 4 },
+    "callToAction": "Peel the Spork",
+    "lore": {
+      "first": "In the belly of the bitter bear of '23, Moloch’s mischievous and malevolent misdoings ran amok. Alas! A brave brood of #BUIDLers gathered in Colorado to slay Moloch and break the sour spell he cast over crypto and Web3.",
+      "second": "In collaboration with SporkDAO, Sasquatch, a wizard in ways of brew and alchemy, harnessed Moloch’s sour spell with his philosopher’s stone and transformed it. This nourishing nectar is the result of painstaking alchemical separation and ferementation. It is sour transmuted, from devious spell to delicious sips.",
+      "third": "So it is. As fruits blossom and package strength-giving nourishment, so too will this fruited sour embolden your your spirit and give you the strength required to fight Moloch. The Prickly Pears used in it were brought forth from the Ethereum's Dark Forest of Ethereum, picked with utmost and discerning precision. The Red Raspberries are steeped in the blood-oaths of Solarpunks who have pledged their life to slaying brutal beasts.",
+      "fourth": "In drinking Spork and Sour, you honor the brave souls who summoned it as the strength-giving potion you hold in your hand."
+    },
+    "canImage": "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
+    "daoClaimUrl": "https://onbrooder.daohaus.club/#/claim-shares/0xc5134E012ED3861db640fF00E680B0Ad5C7d425e"
+  },
   "greenpil": {
     "name": "Green Pil",
     "heading": { "title": "GOOD FOR HUMANITY", "subtitle": "BAD FOR MOLOCH" },
@@ -41,33 +70,17 @@
     "canImage": "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
     "daoClaimUrl": "https://onbrooder.daohaus.club/#/claim-shares/0x0ca6f82da209b20271493969a53facf513007416"
   },
-  "sporkandsour": {
-    "name": "Spork and Sour",
+  "prettydecent": {
+    "name": "Pretty Decent",
     "heading": { "title": "GOOD FOR HUMANITY", "subtitle": "BAD FOR MOLOCH" },
-    "style": "Fruited Sour",
-    "beer": "Berlinerweiss style sour finished with Colorado fruit, Prickly Pear and Red Raspberry. Made in collaboration with SporkDAO for ETH Denver 2023.",
-    "traits": { "abv": 4.5, "ibu": 4 },
-    "callToAction": "Peel the Spork",
+    "style": "West Coast IPA",
+    "beer": "Crispy and clean WestCoast IPA with Southern Hemisphere Flora. Nectaron and Nelson hops bring stonefruit and citrus, white wine and black pepper.",
+    "traits": { "abv": 6.9, "ibu": 80 },
+    "callToAction": "CTA",
     "lore": {
-      "first": "In the belly of the bitter bear of '23, Moloch’s mischievous and malevolent misdoings ran amok. Alas! A brave brood of #BUIDLers gathered in Colorado to slay Moloch and break the sour spell he cast over crypto and Web3.",
-      "second": "In collaboration with SporkDAO, Sasquatch, a wizard in ways of brew and alchemy, harnessed Moloch’s sour spell with his philosopher’s stone and transformed it. This nourishing nectar is the result of painstaking alchemical separation and ferementation. It is sour transmuted, from devious spell to delicious sips.",
-      "third": "So it is. As fruits blossom and package strength-giving nourishment, so too will this fruited sour embolden your your spirit and give you the strength required to fight Moloch. The Prickly Pears used in it were brought forth from the Ethereum's Dark Forest of Ethereum, picked with utmost and discerning precision. The Red Raspberries are steeped in the blood-oaths of Solarpunks who have pledged their life to slaying brutal beasts.",
-      "fourth": "In drinking Spork and Sour, you honor the brave souls who summoned it as the strength-giving potion you hold in your hand."
+      "first": "Now and then, a Miller toward a Home brew carelessly learns a hard lesson from the lover beyond the Hoptoberfest."
     },
     "canImage": "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
-    "daoClaimUrl": "https://onbrooder.daohaus.club/#/claim-shares/0xc5134E012ED3861db640fF00E680B0Ad5C7d425e"
-  },
-  "seoulbound": {
-    "name": "Seoul Bound",
-    "heading": { "title": "A Beverage for DAO East and Rest" },
-    "style": "Korean Rice Wine",
-    "beer": "Traditional Korean communal beverage. Milky, off-white, and lightly sparkling rice wine. Made in collaboration with Nonce.",
-    "traits": { "abv": 9, "ibu": 0 },
-    "callToAction": "Reveal through meditation",
-    "lore": {
-      "first": "Makgeolli is a traditional communal beverage of Korea, shared amongst friends and family to strengthen the ties that bind. Honoring this tradition, Raid Brood worked in collaboration with the Nonce Commmunity and Jangan Brewery to create a brew that bonds the DAOists of the East and Rest. Enjoy the Makgeolli and let the liquid solidify bonds, old and new."
-    },
-    "canImage": "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
-    "daoClaimUrl": "https://onbrooder.daohaus.club/#/claim-shares/0x9568ad7d722b75b303c823ed8dc2129f6c66e65c"
+    "daoClaimUrl": "https://onbrooder.daohaus.club/#/claim-shares/0x0ca6f82da209b20271493969a53facf513007416"
   }
 }
