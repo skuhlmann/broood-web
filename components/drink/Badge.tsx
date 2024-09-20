@@ -1,8 +1,8 @@
 import { Center, Image } from "@chakra-ui/react";
 
-const Badge = ({ path, bgColor = "#2b2c34" }) => {
+const Badge = ({ path }) => {
   return (
-    <Center py={"5em"} w={"100%"} bgColor={bgColor}>
+    <Center py={"1rem"} w={"100%"}>
       <Image src={path} boxSize={"sm"} alt="drink badge" />
     </Center>
   );

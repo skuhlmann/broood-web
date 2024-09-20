@@ -1,15 +1,33 @@
-import { Link, Image, Center, VStack, HStack, Spacer } from "@chakra-ui/react";
+import {
+  Link,
+  Image,
+  Center,
+  VStack,
+  HStack,
+  Spacer,
+  Heading,
+} from "@chakra-ui/react";
 import NextLink from "next/link";
+import styled from "@emotion/styled";
+import { theme } from "../../styles/theme";
+
 import { MEDIA_FILES } from "../../utils/constants";
+
+const StyledLink = styled(Link)`
+  :hover {
+    text-decoration: none;
+  }
+  color: ${theme.colors.bodyHorrorGreen};
+`;
 
 const LogoHeader = ({ path }) => {
   return (
-    <VStack w={"100%"} py={"3em"} bgGradient="linear(to-b, #2b2c34, black)">
+    <VStack w={"100%"} py={"1em"}>
       <HStack w={"80%"}>
         <NextLink href="/" passHref>
-          <Link>
-            <Image src={MEDIA_FILES.logos.footer} alt="logo" boxSize={"4xs"} />
-          </Link>
+          <StyledLink>
+            <Heading>BROOD.BEER</Heading>
+          </StyledLink>
         </NextLink>
         <Spacer />
         <HStack justifyContent={"flex-end"} gap={2}>

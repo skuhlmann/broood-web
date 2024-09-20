@@ -15,25 +15,24 @@ const StyledHeading = styled(Text)`
   line-height: 72px;
   text-align: left;
   margin-bottom: 1rem;
-  color: ${theme.colors.bodyHororGreen};
+  color: ${theme.colors.bodyHorrorGreen};
   text-shadow: ${theme.colors.bodyHorrorRed} 2px 5px;
 `;
 const StyledBodyText = styled(Text)`
   font-family: ${theme.fonts.garamond};
-  letter-spacing: 1.2px;
   text-align: left;
   margin-bottom: 1rem;
 `;
 
 const StyledPopupButton = styled(PopupButton)`
-  font-family: ${theme.fonts.garamond};
+  font-family: ${theme.fonts.heading};
   background-color: ${theme.colors.bodyHorrorRed};
   font-size: 24px;
   font-weight: 500;
   border-radius: 0px;
   padding: 12px 36px;
   margin-top: 2rem;
-  filter: drop-shadow(5px 5px ${theme.colors.bodyHororGreen});
+  filter: drop-shadow(5px 5px ${theme.colors.bodyHorrorGreen});
 
   :hover {
     opacity: 0.85;
@@ -41,7 +40,7 @@ const StyledPopupButton = styled(PopupButton)`
 `;
 
 const StyledLink = styled.a`
-  color: #ff3864;
+  color: ${theme.colors.bodyHorrorRed};
   opacity: 1;
   :hover {
     opacity: 0.85;
