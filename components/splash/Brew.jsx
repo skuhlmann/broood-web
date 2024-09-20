@@ -15,7 +15,7 @@ const StyledHeading = styled(Text)`
   line-height: 72px;
   text-align: left;
   margin-bottom: 1rem;
-  color: ${theme.colors.bodyHororGreen};
+  color: ${theme.colors.bodyHorrorGreen};
   text-shadow: ${theme.colors.bodyHorrorRed} 2px 5px;
 `;
 const StyledBodyText = styled(Text)`
@@ -32,7 +32,7 @@ const StyledPopupButton = styled(PopupButton)`
   border-radius: 0px;
   padding: 12px 36px;
   margin-top: 2rem;
-  filter: drop-shadow(5px 5px ${theme.colors.bodyHororGreen});
+  filter: drop-shadow(5px 5px ${theme.colors.bodyHorrorGreen});
 
   :hover {
     opacity: 0.85;

@@ -22,7 +22,7 @@ const StyledHeading = styled(Text)`
   width: 100%;
   font-family: ${theme.fonts.uncial};
   line-height: 48px;
-  color: ${theme.colors.bodyHororGreen};
+  color: ${theme.colors.bodyHorrorGreen};
   text-align: left;
   margin-bottom: 1rem;
   text-shadow: ${theme.colors.bodyHorrorRed} 2px 5px;
