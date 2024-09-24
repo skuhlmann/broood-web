@@ -33,7 +33,7 @@ export const BEER_CONTENT = [
   {
     title: "Spork Whale Wit",
     description:
-      "Crispy and clean WestCoast IPA with Southern Hemisphere Flora. Nectaron and Nelson hops bring stonefruit and citrus, white wine and black pepper.",
+      "Hazy, citrusy and spicy. A true Belgian Wit bursting with flavor and absolutely crushable.",
     canImage: "https://placehold.co/600x400",
     path: "/eth-denver-2024",
     label: "https://placehold.co/600x400",
