@@ -19,6 +19,16 @@ const StyledHeading = styled(Heading)`
   color: ${theme.colors.bodyHorrorGreen};
 `;
 
+const PlainLink = styled(Link)`
+  :hover {
+    text-decoration: none;
+  }
+`;
+
+const FooterTextLink = styled.p`
+  line-height: 1;
+`;
+
 export const Footer = () => {
   return (
     <StyledContainer px={{ lg: "8rem", md: "4rem", base: "2rem" }} py={12}>
@@ -41,12 +51,15 @@ export const Footer = () => {
           </StyledNavLink>
         </Flex>
         <Flex gridArea="mid" justify="center">
-          <StyledHeading>BROOD.BEER</StyledHeading>
+          <PlainLink href="/">
+            <StyledHeading>BROOD.BEER</StyledHeading>
+          </PlainLink>
         </Flex>
 
         <Flex
           direction="row"
           alignItems="end"
+          justifyContent="center"
           gridArea="right"
           ms="auto"
           gap={2}
@@ -64,6 +77,9 @@ export const Footer = () => {
               alt="twitter"
               w={{ lg: "32px", base: "18px" }}
             />
+          </Link>
+          <Link href="https://pod.brood.beer" isExternal>
+            <FooterTextLink>Proof of Drink</FooterTextLink>
           </Link>
         </Flex>
       </Grid>

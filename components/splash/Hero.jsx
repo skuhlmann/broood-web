@@ -38,7 +38,7 @@ export const Hero = () => {
       <StyledSloganTextUpper
         fontSize={{ lg: "32px", base: "18px" }}
         mb={{ base: "1rem", md: "3rem" }}
-        // fontWeight="700"
+        fontWeight="700"
       >
         Beer for Slayers of Moloch
       </StyledSloganTextUpper>
@@ -68,13 +68,9 @@ export const Hero = () => {
         Pooling our Web3 powers to conspire against Moloch in taverns around the
         world.
       </StyledSloganText>
-      <StyledSloganText fontSize={{ lg: "28px", base: "18px" }}>
+      {/* <StyledSloganText fontSize={{ lg: "28px", base: "18px" }}>
         When the whacked hops takes a coffee break, a hops ceases to exist.
-        Sometimes a hardly dreamlike pin ball machine laughs out loud, but the
-        greedily soggy line dancer always pees on a bullfrog brew! If a burglar
-        ale knowingly ignores some Hommel Bier, then a Rolling Rock inside a bar
-        stool self-flagellates.
-      </StyledSloganText>
+      </StyledSloganText> */}
       <br />
     </StyledFlex>
   );
