@@ -71,6 +71,10 @@ export const Brew = () => {
         </StyledBodyText>
         <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
           Collaborators include{" "}
+          <StyledLink href="https://www.raidguild.org/">Raid Guild</StyledLink>
+          {", "}
+          <StyledLink href="https://decentdao.org/">Decent</StyledLink>
+          {", "}
           <StyledLink href="https://greenpill.party/">
             GreenPill Podcast
           </StyledLink>{" "}
@@ -81,8 +85,8 @@ export const Brew = () => {
           .
         </StyledBodyText>
         <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
-          Do you want to join us in the endeavour of exlixir to fuel our fight
-          against Moloch by making a batch for you?
+          Join us in fueling the fight against Moloch by brewing a batch for
+          you!
         </StyledBodyText>
       </Flex>
       <StyledPopupButton id="KSaCPC3g" className="my-button">

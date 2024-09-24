@@ -26,7 +26,7 @@ const PlainLink = styled(Link)`
 `;
 
 const FooterTextLink = styled.p`
-  line-height: 1;
+  line-height: 2;
 `;
 
 export const Footer = () => {
@@ -76,6 +76,13 @@ export const Footer = () => {
               src={MEDIA_FILES.icons.twitter}
               alt="twitter"
               w={{ lg: "32px", base: "18px" }}
+            />
+          </Link>
+          <Link href="https://warpcast.com/~/channel/post-yer-ale" isExternal>
+            <Image
+              src="/farcaster-white.png"
+              alt="twitter"
+              w={{ lg: "36px", base: "20px" }}
             />
           </Link>
           <Link href="https://pod.brood.beer" isExternal>
