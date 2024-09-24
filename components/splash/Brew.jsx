@@ -57,11 +57,11 @@ export const Brew = () => {
         <StyledHeading fontSize={{ xl: "54px", lg: "44px", base: "36px" }}>
           Brew a Batch
         </StyledHeading>
-        <StyledBodyText fontSize={{ lg: "24px", base: "20px" }}>
+        <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
           RaidBrood brews custom batches for communities, conferences, and other
           events.
         </StyledBodyText>
-        <StyledBodyText fontSize={{ lg: "24px", base: "20px" }}>
+        <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
           Our team of beer experts work to concoct the perfect brew for you. Our
           master brewers capture the tastes and notes that encapsulate what you
           want to do with your brew. Our designers create a logo that
@@ -69,18 +69,18 @@ export const Brew = () => {
           for your brew. Our writers pick the perfect words to describe the lore
           of your brew.
         </StyledBodyText>
-        <StyledBodyText fontSize={{ lg: "24px", base: "20px" }}>
+        <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
           Collaborators include{" "}
           <StyledLink href="https://greenpill.party/">
             GreenPill Podcast
           </StyledLink>{" "}
           and{" "}
           <StyledLink href="https://www.sporkdao.org/">
-            SporkDAO/ETHDenver 2023
+            SporkDAO/ETHDenver
           </StyledLink>
           .
         </StyledBodyText>
-        <StyledBodyText fontSize={{ lg: "24px", base: "20px" }}>
+        <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
           Do you want to join us in the endeavour of exlixir to fuel our fight
           against Moloch by making a batch for you?
         </StyledBodyText>

@@ -40,7 +40,7 @@ export const Beers = () => {
       <StyledHeading fontSize={{ xl: "54px", lg: "44px", base: "36px" }}>
         Our Brood
       </StyledHeading>
-      <StyledBodyText fontSize={{ lg: "24px", base: "20px" }}>
+      <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
         At Raid Brood, brews are our weapons in the fight against Moloch. Armed
         with grains, hops, yeast and water, our master brewers are practiced in
         the arts and sciences of brewish battle. This is our arsenal.

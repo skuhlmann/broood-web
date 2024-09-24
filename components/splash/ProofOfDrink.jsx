@@ -59,18 +59,19 @@ export const ProofOfDrink = () => {
           ml="auto"
           mr={{ lg: "0", base: "auto" }}
         />
-        <StyledSubContainer>
-          <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
+        <StyledSubContainer ml="auto" mr={{ lg: "0", base: "auto" }}>
+          <StyledBodyText
+            fontSize={{ lg: "24px", base: "18px" }}
+            fontWeight="700"
+          >
             Collect Liquidity
           </StyledBodyText>
           <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
-            A frightened Hefeweizen trembles, because a razor blade beer from a
-            Rolling Rock barely secretly admires the college-educated milwakees
-            best. Now and then, a spudgun of an ESB secretly reaches an
-            understanding with the eagerly burly burglar ale.
+            Brood&apos;s POD NFTs are digital collectables tied to our
+            in-you-hand beer releases.
           </StyledBodyText>
           <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
-            The only beer company in the world that has created a web3
+            Make a beer with the only beer DAO in the world with a web3
             <StyledLink href="https://pod.brood.beer"> Protocol</StyledLink>.
           </StyledBodyText>
         </StyledSubContainer>
