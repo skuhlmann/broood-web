@@ -26,10 +26,17 @@ export const BEER_CONTENT = [
     title: "Pretty Decent",
     description:
       "Crispy and clean WestCoast IPA with Southern Hemisphere Flora. Nectaron and Nelson hops bring stonefruit and citrus, white wine and black pepper.",
-    canImage:
-      "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
-    path: "/prettydecent",
-    label: "/assets/drink/seoulbound/label.svg",
+    canImage: "https://placehold.co/600x400",
+    path: "/decent-raidguild",
+    label: "https://placehold.co/600x400",
+  },
+  {
+    title: "Spork Whale Wit",
+    description:
+      "Hazy, citrusy and spicy. A true Belgian Wit bursting with flavor and absolutely crushable.",
+    canImage: "https://placehold.co/600x400",
+    path: "/eth-denver-2024",
+    label: "https://placehold.co/600x400",
   },
   {
     title: "Seoul Bound",

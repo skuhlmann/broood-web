@@ -70,17 +70,30 @@
     "canImage": "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
     "daoClaimUrl": "https://onbrooder.daohaus.club/#/claim-shares/0x0ca6f82da209b20271493969a53facf513007416"
   },
-  "prettydecent": {
+  "decent-raidguild": {
     "name": "Pretty Decent",
     "heading": { "title": "GOOD FOR HUMANITY", "subtitle": "BAD FOR MOLOCH" },
     "style": "West Coast IPA",
-    "beer": "Crispy and clean WestCoast IPA with Southern Hemisphere Flora. Nectaron and Nelson hops bring stonefruit and citrus, white wine and black pepper.",
+    "beer": "Crispy and clean WestCoast IPA with Southern Hemisphere Flora. Nectaron and Nelson hops bring stonefruit and citrus, white wine and black pepper",
     "traits": { "abv": 6.9, "ibu": 80 },
-    "callToAction": "CTA",
+    "callToAction": "",
     "lore": {
-      "first": "Now and then, a Miller toward a Home brew carelessly learns a hard lesson from the lover beyond the Hoptoberfest."
+      "first": "Rip off the Guy Fawkes mask, gonna do this like professionals, but the face exposed is a double standard for mutiny: crisp, clean and below the equator!"
     },
-    "canImage": "https://res.cloudinary.com/raidguild/image/upload/v1643180188/BroodGuild/misc/one_can_la3mhf.svg",
-    "daoClaimUrl": "https://onbrooder.daohaus.club/#/claim-shares/0x0ca6f82da209b20271493969a53facf513007416"
+    "canImage": "https://placehold.co/600x400",
+    "daoClaimUrl": ""
+  },
+  "eth-denver-2024": {
+    "name": "Spork Whale Wit",
+    "heading": { "title": "GOOD FOR HUMANITY", "subtitle": "BAD FOR MOLOCH" },
+    "style": "Belgian Wit",
+    "beer": "Hazy, citrusy and spicy. A true Belgian Wit bursting with flavor and absolutely crushable.",
+    "traits": { "abv": 5.8, "ibu": 25 },
+    "callToAction": "",
+    "lore": {
+      "first": "Now and then, a Miller toward a home brew carelessly learns a hard lesson from the lover beyond the Hoptoberfest."
+    },
+    "canImage": "https://placehold.co/600x400",
+    "daoClaimUrl": ""
   }
 }
