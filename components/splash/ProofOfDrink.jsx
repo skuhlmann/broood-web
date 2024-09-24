@@ -68,7 +68,7 @@ export const ProofOfDrink = () => {
           </StyledBodyText>
           <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
             Brood&apos;s POD NFTs are digital collectables tied to our
-            in-you-hand beer releases.
+            in-your-hand beer releases.
           </StyledBodyText>
           <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
             Make a beer with the only beer DAO in the world with a web3
