@@ -46,7 +46,7 @@ export const About = () => {
   return (
     <StyledFlex px={{ lg: "5rem", md: "3rem", base: "1rem" }}>
       <StyledHeading fontSize={{ xl: "54px", lg: "44px", base: "36px" }}>
-        WTF is Raid Brood?!?
+        WTF is Brood?!?
       </StyledHeading>
       <StyledContainer
         columns={{ base: 1, md: 2, lg: 2 }}
@@ -54,16 +54,16 @@ export const About = () => {
       >
         <StyledSubContainer>
           <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
-            At RaidBrood, we are about brews, not bags. We are beer lovers. We
-            are Web3 builders. We are friends. We hate Moloch.
+            At Brood, we are about brews, not bags. We are beer lovers. We are
+            Web3 builders. We are friends. We hate Moloch.
           </StyledBodyText>
           <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
-            RaidBrood brews are memetic manifestations in our eternal fight
-            against the dastardly gods of disorder and chaos.
+            Brood brews are memetic manifestations in our eternal fight against
+            the dastardly gods of disorder and chaos.
           </StyledBodyText>
           <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
-            The first of its kind, RaidBrood is a DAO dedicated to craft beer.
-            Spun out from{" "}
+            The first of its kind, Brood is a DAO dedicated to craft beer. Spun
+            out from{" "}
             <StyledLink href="https://www.raidguild.org/">RaidGuild</StyledLink>
             , our master brewer cooked up Blood of Moloch, a special Russian
             Imperial Stout to commemorate EthDenver 2022. In the spirit of Web3,

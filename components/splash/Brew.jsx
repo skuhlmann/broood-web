@@ -58,7 +58,7 @@ export const Brew = () => {
           Brew a Batch
         </StyledHeading>
         <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
-          RaidBrood brews custom batches for communities, conferences, and other
+          Brood brews custom batches for communities, conferences, and other
           events.
         </StyledBodyText>
         <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>

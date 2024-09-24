@@ -41,9 +41,9 @@ export const Beers = () => {
         Our Brood
       </StyledHeading>
       <StyledBodyText fontSize={{ lg: "24px", base: "18px" }}>
-        At Raid Brood, brews are our weapons in the fight against Moloch. Armed
-        with grains, hops, yeast and water, our master brewers are practiced in
-        the arts and sciences of brewish battle. This is our arsenal.
+        At Brood, brews are our weapons in the fight against Moloch. Armed with
+        grains, hops, yeast and water, our master brewers are practiced in the
+        arts and sciences of brewish battle. This is our arsenal.
       </StyledBodyText>
       <SimpleGrid
         columns={{ base: 1, md: 1, lg: 2, xl: 2 }}
