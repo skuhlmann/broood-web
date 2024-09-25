@@ -36,7 +36,7 @@ export const BEER_CONTENT = [
       "Hazy, citrusy and spicy. A true Belgian Wit bursting with flavor and absolutely crushable.",
     canImage: "https://placehold.co/600x400",
     path: "/eth-denver-2024",
-    label: "https://placehold.co/600x400",
+    label: "/assets/drink/eth-denver-2024/label.svg",
   },
   {
     title: "Seoul Bound",
