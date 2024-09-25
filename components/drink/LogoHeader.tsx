@@ -23,7 +23,7 @@ const StyledLink = styled(Link)`
 const LogoHeader = ({ path }) => {
   return (
     <VStack w={"100%"} py={"1em"}>
-      <HStack w={"80%"}>
+      <HStack w={"80%"} mb="5rem">
         <NextLink href="/" passHref>
           <StyledLink>
             <Heading>BROOD.BEER</Heading>
@@ -49,7 +49,12 @@ const LogoHeader = ({ path }) => {
       </HStack>
 
       <Center>
-        <Image src={path} objectFit="contain" boxSize={"md"} alt="drink logo" />
+        <Image
+          src={path}
+          maxW="min(100%, 750px)"
+          objectFit={"contain"}
+          alt="drink logo"
+        />
       </Center>
     </VStack>
   );
