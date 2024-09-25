@@ -28,7 +28,7 @@ export const BEER_CONTENT = [
       "Crispy and clean WestCoast IPA with Southern Hemisphere Flora. Nectaron and Nelson hops bring stonefruit and citrus, white wine and black pepper.",
     canImage: "https://placehold.co/600x400",
     path: "/decent-raidguild",
-    label: "https://placehold.co/600x400",
+    label: "/assets/drink/decent-raidguild/label.svg",
   },
   {
     title: "Spork Whale Wit",
