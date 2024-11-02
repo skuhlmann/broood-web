@@ -1,5 +1,4 @@
-import { Flex, Image, Link, Text } from "@chakra-ui/react";
-import { PopupButton } from "@typeform/embed-react";
+import { Flex, Text, Button } from "@chakra-ui/react";
 import styled from "@emotion/styled";
 import { theme } from "../../styles/theme";
 
@@ -24,13 +23,14 @@ const StyledBodyText = styled(Text)`
   margin-bottom: 1rem;
 `;
 
-const StyledPopupButton = styled(PopupButton)`
+const StyledPopupButton = styled(Button)`
   font-family: ${theme.fonts.heading};
   background-color: ${theme.colors.bodyHorrorRed};
+  color: black;
   font-size: 24px;
   font-weight: 500;
   border-radius: 0px;
-  padding: 12px 36px;
+  padding: 16px 36px;
   margin-top: 2rem;
   filter: drop-shadow(5px 5px ${theme.colors.bodyHorrorGreen});
 
@@ -89,9 +89,13 @@ export const Brew = () => {
           you!
         </StyledBodyText>
       </Flex>
-      <StyledPopupButton id="KSaCPC3g" className="my-button">
-        Contact Us
-      </StyledPopupButton>
+      <a
+        href="https://app.deform.cc/form/c55b412d-f036-4149-8351-ef8155d85432/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <StyledPopupButton size="xl">Contact Us</StyledPopupButton>
+      </a>
     </StyledContainer>
   );
 };
